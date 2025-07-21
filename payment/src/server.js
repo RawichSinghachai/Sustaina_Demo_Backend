@@ -6,7 +6,7 @@ import {startConsumer} from './infrastructure/kafka/consumer.js';
 async function main() {
   const app = await buildApp();
   await startConsumer();
-  await app.listen({ port: 3002 });
+  await app.listen({ port: 3002});
   console.log('Payment service running at http://localhost:3002');
 }
 
