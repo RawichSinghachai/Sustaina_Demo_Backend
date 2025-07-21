@@ -1,0 +1,112 @@
+TAP version 14
+{"level":30,"time":1752810762682,"pid":9612,"hostname":"LAPTOP-ID9RS8C8","reqId":"req-1","req":{"method":"GET","url":"/payments","host":"localhost:80","remoteAddress":"127.0.0.1"},"msg":"incoming request"}
+{"level":30,"time":1752810762745,"pid":9612,"hostname":"LAPTOP-ID9RS8C8","reqId":"req-1","res":{"statusCode":200},"responseTime":61.78999999165535,"msg":"request completed"}
+# Subtest: GET /payments
+    ok 1 - Should return 200 status
+    ok 2 - Should return an array
+    ok 3 - Each payment should have an id
+    ok 4 - Each payment should have a product
+    ok 5 - Each payment should have a valid ISO date
+    ok 6 - Each payment should have an id
+    ok 7 - Each payment should have a product
+    ok 8 - Each payment should have a valid ISO date
+    ok 9 - Each payment should have an id
+    ok 10 - Each payment should have a product
+    ok 11 - Each payment should have a valid ISO date
+    ok 12 - Each payment should have an id
+    ok 13 - Each payment should have a product
+    ok 14 - Each payment should have a valid ISO date
+    ok 15 - Each payment should have an id
+    ok 16 - Each payment should have a product
+    ok 17 - Each payment should have a valid ISO date
+    ok 18 - Each payment should have an id
+    ok 19 - Each payment should have a product
+    ok 20 - Each payment should have a valid ISO date
+    ok 21 - Each payment should have an id
+    ok 22 - Each payment should have a product
+    ok 23 - Each payment should have a valid ISO date
+    ok 24 - Each payment should have an id
+    ok 25 - Each payment should have a product
+    ok 26 - Each payment should have a valid ISO date
+    ok 27 - Each payment should have an id
+    ok 28 - Each payment should have a product
+    ok 29 - Each payment should have a valid ISO date
+    ok 30 - Each payment should have an id
+    ok 31 - Each payment should have a product
+    ok 32 - Each payment should have a valid ISO date
+    ok 33 - Each payment should have an id
+    ok 34 - Each payment should have a product
+    ok 35 - Each payment should have a valid ISO date
+    ok 36 - Each payment should have an id
+    ok 37 - Each payment should have a product
+    ok 38 - Each payment should have a valid ISO date
+    ok 39 - Each payment should have an id
+    ok 40 - Each payment should have a product
+    ok 41 - Each payment should have a valid ISO date
+    ok 42 - Each payment should have an id
+    ok 43 - Each payment should have a product
+    ok 44 - Each payment should have a valid ISO date
+    ok 45 - Each payment should have an id
+    ok 46 - Each payment should have a product
+    ok 47 - Each payment should have a valid ISO date
+    ok 48 - Each payment should have an id
+    ok 49 - Each payment should have a product
+    ok 50 - Each payment should have a valid ISO date
+    ok 51 - Each payment should have an id
+    ok 52 - Each payment should have a product
+    ok 53 - Each payment should have a valid ISO date
+    ok 54 - Each payment should have an id
+    ok 55 - Each payment should have a product
+    ok 56 - Each payment should have a valid ISO date
+    ok 57 - Each payment should have an id
+    ok 58 - Each payment should have a product
+    ok 59 - Each payment should have a valid ISO date
+    ok 60 - Each payment should have an id
+    ok 61 - Each payment should have a product
+    ok 62 - Each payment should have a valid ISO date
+    ok 63 - Each payment should have an id
+    ok 64 - Each payment should have a product
+    ok 65 - Each payment should have a valid ISO date
+    ok 66 - Each payment should have an id
+    ok 67 - Each payment should have a product
+    ok 68 - Each payment should have a valid ISO date
+    ok 69 - Each payment should have an id
+    ok 70 - Each payment should have a product
+    ok 71 - Each payment should have a valid ISO date
+    ok 72 - Each payment should have an id
+    ok 73 - Each payment should have a product
+    ok 74 - Each payment should have a valid ISO date
+    ok 75 - Each payment should have an id
+    ok 76 - Each payment should have a product
+    ok 77 - Each payment should have a valid ISO date
+    ok 78 - Each payment should have an id
+    ok 79 - Each payment should have a product
+    ok 80 - Each payment should have a valid ISO date
+    ok 81 - Each payment should have an id
+    ok 82 - Each payment should have a product
+    ok 83 - Each payment should have a valid ISO date
+    ok 84 - Each payment should have an id
+    ok 85 - Each payment should have a product
+    ok 86 - Each payment should have a valid ISO date
+    ok 87 - Each payment should have an id
+    ok 88 - Each payment should have a product
+    ok 89 - Each payment should have a valid ISO date
+    ok 90 - Each payment should have an id
+    ok 91 - Each payment should have a product
+    ok 92 - Each payment should have a valid ISO date
+    ok 93 - Each payment should have an id
+    ok 94 - Each payment should have a product
+    ok 95 - Each payment should have a valid ISO date
+    ok 96 - Each payment should have an id
+    ok 97 - Each payment should have a product
+    ok 98 - Each payment should have a valid ISO date
+    ok 99 - Each payment should have an id
+    ok 100 - Each payment should have a product
+    ok 101 - Each payment should have a valid ISO date
+    ok 102 - Each payment should have an id
+    ok 103 - Each payment should have a product
+    ok 104 - Each payment should have a valid ISO date
+    1..104
+ok 1 - GET /payments # time=251.683ms
+
+1..1

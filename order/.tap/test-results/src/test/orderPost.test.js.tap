@@ -1,0 +1,32 @@
+TAP version 14
+✅ Redis connected: PONG
+{"level":30,"time":1752820842268,"pid":6340,"hostname":"LAPTOP-ID9RS8C8","reqId":"req-1","req":{"method":"POST","url":"/order","host":"localhost:80","remoteAddress":"127.0.0.1"},"msg":"incoming request"}
+{"level":30,"time":1752820842346,"pid":6340,"hostname":"LAPTOP-ID9RS8C8","reqId":"req-1","res":{"statusCode":201},"responseTime":76.40879999101162,"msg":"request completed"}
+# Subtest: POST /order
+    ok 1 - should be equal
+    ok 2 - should be equal
+    1..2
+ok 1 - POST /order # time=536.317ms
+
+not ok 2 - timeout!
+  ---
+  signal: null
+  handles:
+    - type: Socket
+      events:
+        - end
+        - data
+        - error
+        - timeout
+    - type: Socket
+      events:
+        - end
+        - error
+        - timeout
+        - close
+        - data
+  expired: TAP
+  test: TAP
+  ...
+
+1..2

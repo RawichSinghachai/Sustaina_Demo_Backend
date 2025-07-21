@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgres://user:pass@localhost:5432/orderdb"
+}
+
+model Order {
+  id      String  @id @default(uuid())
+  product String
+  createdAt DateTime @default(now())
+}
+
+model OutboxOrder {
+  id        String   @id @default(uuid())
+  payload   Json
+  status    EventStatus @default(PENDING)
+  createdAt DateTime @default(now())
+  sentAt        DateTime?
+}
+
+enum EventStatus {
+  PENDING
+  SUCCESS
+  FAILED
+}
